@@ -1,24 +1,24 @@
-import { Calendar, ChevronRight, Flower2, MapPin, Users } from 'lucide-react';
+import { Calendar, ChevronRight, Flower2, Clock, MapPin, Users } from 'lucide-react';
 
-const GOOGLE_FORM_URL = 'https://forms.gle/4ACdPUkyj7Wv3oZU8';
+const GOOGLE_FORM_URL = 'https://forms.gle/Zb1XbyNEe2xgNnRZ6';
 
 const events: Event[] = [
   {
-    id: 'october', tag: 'Pre-Event 1', date: 'Sabtu, 24 Oktober 2026', title: 'Journaling Picnic', subtitle: 'Journaling & Refleksi Diri untuk Healing',
-    desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', location: 'Taman Bendera Pusaka, Jakarta', capacity: '35 Peserta', accentColor: '#E07893', bgColor: '#FFF5F7', borderColor: '#F4BFC9', open: true,
-    speaker: { role: 'Fasilitator', title: 'Nama Fasilitator', credential: 'Praktisi Journaling & Mindful Living' }, image: '/images/Journaling-picnic.png',
+    id: 'october', tag: 'Pre-Event 1', date: 'Sabtu, 24 Oktober 2026', title: 'Journaling Picnic', subtitle: 'Journaling & Refleksi Diri',
+    desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', time: '15.00-Selesai WIB', location: 'Taman Bendera Pusaka, Jakarta', capacity: '35 Peserta', accentColor: '#E07893', bgColor: '#FFF5F7', borderColor: '#F4BFC9', open: true,
+    speaker: { role: 'Fasilitator', title: 'Zahwa Islami, M.Psi., Psikolog', credential: 'Psikolog Klinis, Penulis Buku Cetak Biru Cinta' }, image: '/images/Journaling-picnic.png',
   },
   {
     id: 'november', tag: 'Pre-Event 2', date: 'Sabtu, 21 November 2026', title: 'Mat Pilates Class', subtitle: 'Gerakan untuk Tubuh & Ketenangan Pikiran',
-    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', location: 'Studio / Ruang Indoor — Jakarta', capacity: '40 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: false,
-    speaker: { role: 'Instruktur', title: 'Nama Instruktur', credential: 'Certified Mat Pilates Instructor' }, image: '/images/Mat-pilates.png',
+    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', time: 'coming soon', location: 'Studio / Ruang Indoor — Jakarta', capacity: '40 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: false,
+    speaker: { role: 'Instruktur', title: 'Coming Soon', credential: 'Cooming Soon' }, image: '/images/Mat-pilates.png',
   },
   {
     id: 'december', tag: 'Main Event', date: 'Desember 2026', title: 'Women Wellness Main Session', subtitle: 'Sesi Mendalam: Reproduksi & Fatherless Healing',
-    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', location: 'Venue Utama — Jakarta', capacity: '150 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: false,
+    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', time: 'Coming Soon', location: 'Venue Utama — Jakarta', capacity: '150 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: false,
     speakers: [
-      { role: 'Sesi Reproduksi', title: 'dr. Nama Dokter, SpOG', credential: 'Dokter Spesialis Obstetri & Ginekologi' },
-      { role: 'Sesi Fatherless Healing', title: 'Nama Psikolog, M.Psi.', credential: 'Psikolog Klinis' },
+      { role: 'Sesi Reproduksi', title: 'Coming Soon', credential: 'Dokter Spesialis Obstetri & Ginekologi' },
+      { role: 'Sesi Fatherless Healing', title: 'Coming Soon', credential: 'Coming Soon' },
     ], image: '/images/Main-Event.png',
   },
 ];
@@ -31,6 +31,7 @@ type Event = {
   title: string;
   subtitle: string;
   desc: string;
+  time: string;
   location: string;
   capacity: string;
   accentColor: string;
@@ -70,7 +71,7 @@ export default function Schedule() {
                   <Flower2 className="absolute right-5 top-5 h-16 w-16 opacity-[0.09]" style={{ color: event.accentColor }} strokeWidth={1} />
                   <div className="mb-4 flex flex-wrap items-center gap-3"><span className="rounded-full px-3 py-1 text-xs font-bold text-white" style={{ background: event.accentColor }}>{event.tag}</span><div className="flex items-center gap-1.5 text-xs text-[#6b6b6b]"><Calendar size={13} /><span>{event.date}</span></div></div>
                   <h3 className="mb-1 text-2xl font-bold text-[#2d2d2d]">{event.title}</h3><p className="mb-3 text-sm font-medium" style={{ color: event.accentColor }}>{event.subtitle}</p><p className="mb-5 text-sm leading-relaxed text-[#6b6b6b]">{event.desc}</p>
-                  <div className="mb-5 flex flex-wrap gap-4 text-xs text-[#6b6b6b]"><div className="flex items-center gap-1.5"><MapPin size={13} style={{ color: event.accentColor }} /><span>{event.location}</span></div><div className="flex items-center gap-1.5"><Users size={13} style={{ color: event.accentColor }} /><span>{event.capacity}</span></div></div>
+                  <div className="mb-5 flex flex-wrap gap-4 text-xs text-[#6b6b6b]"><div className="flex items-center gap-1.5"><Clock size={13} style={{ color: event.accentColor }} /><span>{event.time}</span></div><div className="flex items-center gap-1.5"><MapPin size={13} style={{ color: event.accentColor }} /><span>{event.location}</span></div><div className="flex items-center gap-1.5"><Users size={13} style={{ color: event.accentColor }} /><span>{event.capacity}</span></div></div>
                   <div className="mb-6 space-y-2">{event.speaker && <SpeakerCard speaker={event.speaker} accentColor={event.accentColor} />}{event.speakers?.map((speaker) => <SpeakerCard key={speaker.role} speaker={speaker} accentColor={event.accentColor} />)}</div>
                   {event.open ? <a href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:opacity-90 active:scale-95" style={{ background: event.accentColor }}>Daftar Sekarang <ChevronRight size={16} /></a> : <button type="button" disabled className="inline-flex cursor-not-allowed items-center gap-2 rounded-full bg-[#d5d0cc] px-5 py-2.5 text-sm font-semibold text-white">Pendaftaran Belum Dibuka</button>}
                 </div>

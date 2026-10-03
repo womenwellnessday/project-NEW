@@ -10,23 +10,16 @@ const pastEvents = [
   {
     title: 'Blooming Picnic',
     description: 'Piknik hangat untuk berbagi cerita, menulis refleksi, dan merayakan proses bertumbuh bersama.',
-    highlight: '35 peserta',
+    highlight: '32 peserta',
     year: '2026',
-    image: 'https://images.pexels.com/photos/8121784/pexels-photo-8121784.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    image: '/images/Blooming_picnic1.jpg',
   },
   {
-    title: 'YISC Sharing Session',
-    description: 'Sesi belajar dan refleksi bersama yang menghadirkan perspektif baru untuk kehidupan sehari-hari.',
-    highlight: '5 narasumber',
-    year: '2024',
-    image: 'https://images.pexels.com/photos/36493690/pexels-photo-36493690.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
-  },
-  {
-    title: 'YISC Wellness Circle',
-    description: 'Aktivitas komunitas yang merayakan keseimbangan, kepedulian, dan keberanian untuk hadir apa adanya.',
-    highlight: '3 rangkaian',
-    year: '2025',
-    image: 'https://images.pexels.com/photos/35960251/pexels-photo-35960251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940',
+    title: 'YISC Al-Azhar Trekking to Bukit Paniisan',
+    description: 'Momen rehat sejenak dari rutinitas kota dengan trekking ringan dan refleksi bersama',
+    highlight: '11 perserta',
+    year: '2026',
+    image: '/images/Trekking.jpg',
   },
 ];
 

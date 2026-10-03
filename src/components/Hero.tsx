@@ -1,6 +1,6 @@
 import { Flower2, ArrowUpRight } from 'lucide-react';
 
-const GOOGLE_FORM_URL = 'https://forms.gle/4ACdPUkyj7Wv3oZU8';
+const GOOGLE_FORM_URL = 'https://forms.gle/R85AoCKvhRFKGggv5';
 
 export default function Hero() {
   const scrollTo = (href: string) => {
@@ -18,8 +18,8 @@ export default function Hero() {
       <Flower2 className="botanical-line-art absolute right-[7%] top-[18%] h-40 w-40 text-[#67855F]" strokeWidth={0.8} />
       <Flower2 className="botanical-line-art absolute bottom-[12%] left-[8%] h-28 w-28 rotate-12 text-[#E07893]" strokeWidth={0.8} />
 
-      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 pb-16 pt-28 sm:px-6 lg:grid-cols-2 lg:px-8">
-        <div className="space-y-6 text-center lg:text-left">
+      <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 pb-16 pt-28 sm:px-6 text-center">
+        <div className="space-y-6 text-center">
           <div className="inline-flex items-center gap-2 rounded-full border border-[#E07893]/20 bg-[#F4BFC9]/40 px-4 py-2">
             <div className="h-2 w-2 animate-pulse rounded-full bg-[#E07893]" />
             <span className="text-xs font-medium text-[#E07893] sm:text-sm">
@@ -30,16 +30,16 @@ export default function Hero() {
           <img
             src="/images/logos/IMG-20260928-WA0018 copy.jpg"
             alt="Women Wellness Day — Healthy Body, Healing Soul"
-            className="mx-auto max-h-80 w-full max-w-sm rounded-3xl object-contain mix-blend-multiply lg:mx-0 lg:max-w-md"
+            className="mx-auto max-h-80 w-full max-w-sm rounded-3xl object-contain mix-blend-multiply"
           />
 
-          <p className="mx-auto max-w-lg text-lg leading-relaxed text-[#6b6b6b] sm:text-xl lg:mx-0">
+          <p className="mx-auto max-w-lg text-lg leading-relaxed text-[#6b6b6b] sm:text-xl">
             Merawat Raga, Menyembuhkan Jiwa.
             <br />
             <em className="font-medium not-italic text-[#E07893]">Ruang Aman untuk Setiap Wanita.</em>
           </p>
 
-          <div className="flex flex-col justify-center gap-4 pt-2 sm:flex-row lg:justify-start">
+          <div className="flex flex-col justify-center gap-4 pt-2 sm:flex-row">
             <a
               href={GOOGLE_FORM_URL}
               target="_blank"
@@ -57,7 +57,7 @@ export default function Hero() {
             </button>
           </div>
 
-          <div className="flex justify-center gap-8 pt-4 lg:justify-start">
+          <div className="flex justify-center gap-8 pt-4">
             {[
               { number: '3', label: 'Rangkaian Event' },
               { number: '5+', label: 'Narasumber Ahli' },
@@ -70,30 +70,13 @@ export default function Hero() {
             ))}
           </div>
         </div>
-
-        <div className="hidden grid-cols-2 gap-4 lg:grid">
-          <div className="space-y-4">
-            <div className="h-64 overflow-hidden rounded-3xl shadow-xl">
-              <img src="https://images.pexels.com/photos/36356779/pexels-photo-36356779.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Muslimah berhijab berefleksi di taman" className="h-full w-full object-cover" />
-            </div>
-            <div className="h-44 overflow-hidden rounded-3xl shadow-xl">
-              <img src="https://images.pexels.com/photos/10896958/pexels-photo-10896958.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Perempuan berhijab menikmati kebersamaan" className="h-full w-full object-cover" />
-            </div>
-          </div>
-          <div className="space-y-4 pt-8">
-            <div className="h-44 overflow-hidden rounded-3xl shadow-xl">
-              <img src="https://images.pexels.com/photos/4884255/pexels-photo-4884255.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Muslimah berbincang di taman" className="h-full w-full object-cover" />
-            </div>
-            <div className="h-64 overflow-hidden rounded-3xl shadow-xl">
-              <img src="https://images.pexels.com/photos/35960251/pexels-photo-35960251.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt="Perempuan mengikuti aktivitas wellness" className="h-full w-full object-cover" />
-            </div>
-          </div>
-        </div>
       </div>
 
       <div className="absolute bottom-8 left-1/2 flex -translate-x-1/2 animate-bounce flex-col items-center gap-2">
         <span className="text-xs text-[#8a8a8a]">Scroll</span>
-        <svg className="h-4 w-4 text-[#E07893]" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" /></svg>
+        <svg className="h-4 w-4 text-[#E07893]" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
+        </svg>
       </div>
     </section>
   );
