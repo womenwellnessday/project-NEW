@@ -15,7 +15,7 @@ export default function Hero() {
     >
       <div className="absolute right-0 top-20 h-[600px] w-[600px] rounded-full bg-[#F4BFC9] opacity-20 blur-3xl" />
       <div className="absolute bottom-0 left-0 h-[400px] w-[400px] rounded-full bg-[#67855F] opacity-15 blur-3xl" />
-      <Flower2 className="botanical-line-art absolute right-[7%] top-[18%] h-40 w-40 text-[#67855F]" strokeWidth={0.8} />
+      
       <Flower2 className="botanical-line-art absolute bottom-[12%] left-[8%] h-28 w-28 rotate-12 text-[#E07893]" strokeWidth={0.8} />
 
       <div className="relative mx-auto grid max-w-7xl items-center gap-12 px-4 pb-16 pt-28 sm:px-6 text-center">
