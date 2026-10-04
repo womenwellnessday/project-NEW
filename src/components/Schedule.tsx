@@ -6,7 +6,7 @@ const events: Event[] = [
   {
     id: 'october', tag: 'Pre-Event 1', date: 'Sabtu, 24 Oktober 2026', title: 'Journaling Picnic', subtitle: 'Journaling & Refleksi Diri',
     desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', time: '15.00-Selesai WIB', location: 'Taman Bendera Pusaka, Jakarta', capacity: '35 Peserta', accentColor: '#E07893', bgColor: '#FFF5F7', borderColor: '#F4BFC9', open: true,
-    speaker: { role: 'Fasilitator', title: 'Zahwa Islami, M.Psi., Psikolog', credential: 'Psikolog Klinis, Penulis Buku Cetak Biru Cinta' }, image: '/images/Journaling-picnic.png',
+    image: '/images/Journaling-picnic.png',
   },
   {
     id: 'november', tag: 'Pre-Event 2', date: 'Sabtu, 21 November 2026', title: 'Mat Pilates Class', subtitle: 'Gerakan untuk Tubuh & Ketenangan Pikiran',
