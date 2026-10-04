@@ -1,4 +1,4 @@
-import { ArrowUpRight } from 'lucide-react';
+import { Flower2, ArrowUpRight } from 'lucide-react';
 
 const GOOGLE_FORM_URL = 'https://forms.gle/R85AoCKvhRFKGggv5';
 
