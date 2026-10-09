@@ -9,7 +9,7 @@ const NAV_LINKS = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const GOOGLE_FORM_URL = 'https://forms.gle/4ACdPUkyj7Wv3oZU8';
+const GOOGLE_FORM_URL = 'https://forms.gle/R85AoCKvhRFKGggv5';
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
