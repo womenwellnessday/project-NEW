@@ -24,7 +24,7 @@ export default function Footer() {
               <div className="h-10 w-px bg-white/20" />
               <div className="rounded-2xl bg-white p-2.5"><img src="/images/logos/Logo_Al-Azhar_dan_YISC.png" alt="Al-Azhar dan YISC Al-Azhar" className="h-12 w-auto object-contain" /></div>
             </div>
-            <div><p className="text-lg font-semibold text-[#F4BFC9]">Women Wellness Day</p><p className="mt-1 text-xs text-white/60">Sebuah program YISC Al-Azhar</p><p className="text-xs text-white/60">#MudaSekali, JadikanBerarti</p></div>
+            <div><p className="text-lg font-semibold text-[#F4BFC9]">Women Wellness Day</p><p className="mt-1 text-xs text-white/60">Sebuah program YISC Al Azhar</p><p className="text-xs text-white/60">#MudaSekali, JadikanBerarti</p></div>
             <p className="max-w-sm text-sm leading-relaxed text-white/70">Merawat Raga, Menyembuhkan Jiwa. Ruang aman untuk setiap wanita Muslimah bertumbuh, berefleksi, dan pulih.</p>
             <div className="space-y-2"><p className="text-xs font-semibold uppercase tracking-wide text-[#F4BFC9]">Pertanyaan Peserta & Informasi Acara</p>{WHATSAPP_LINKS.slice(0, 2).map((link) => <a key={link.label} href={link.href} target="_blank" rel="noopener noreferrer" className="mr-2 inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm text-white/80 transition-colors hover:bg-[#E07893]/30 hover:text-white"><MessageCircle size={16} />{link.label}</a>)}</div>
             <div className="space-y-2"><p className="text-xs font-semibold uppercase tracking-wide text-[#F4BFC9]">Peluang Kerjasama & Sponsorship</p><a href={WHATSAPP_LINKS[2].href} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full bg-white/10 px-4 py-2 text-sm text-white/80 transition-colors hover:bg-[#E07893]/30 hover:text-white"><MessageCircle size={16} />WA Sponsorship</a></div>
@@ -35,7 +35,7 @@ export default function Footer() {
           <div><h4 className="mb-4 text-sm font-semibold uppercase tracking-wide text-[#F4BFC9]">Rangkaian Event</h4><ul className="space-y-4">{[{ name: 'Journaling Picnic', date: '24 Okt 2026', color: '#E07893' }, { name: 'Mat Pilates Class', date: '21 Nov 2026', color: '#67855F' }, { name: 'Main Session', date: 'Des 2026', color: '#c8825a' }].map((event) => <li key={event.name} className="flex items-start gap-2.5"><div className="mt-1.5 h-2 w-2 shrink-0 rounded-full" style={{ background: event.color }} /><div><p className="text-sm font-medium text-white/80">{event.name}</p><p className="text-xs text-white/40">{event.date}</p></div></li>)}</ul></div>
         </div>
       </div>
-      <div className="border-t border-white/10"><div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 sm:flex-row sm:px-6 lg:px-8"><p className="text-center text-xs text-white/40 sm:text-left">&copy; 2026 Women Wellness Day — YISC Al-Azhar. All rights reserved.</p><p className="flex items-center gap-1 text-xs text-white/40">Made with <Heart size={12} className="text-[#E07893]" /> for every woman</p></div></div>
+      <div className="border-t border-white/10"><div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-4 py-5 sm:flex-row sm:px-6 lg:px-8"><p className="text-center text-xs text-white/40 sm:text-left">&copy; 2026 Women Wellness Day — YISC Al Azhar. All rights reserved.</p><p className="flex items-center gap-1 text-xs text-white/40">Made with <Heart size={12} className="text-[#E07893]" /> for every woman</p></div></div>
     </footer>
   );
 }
