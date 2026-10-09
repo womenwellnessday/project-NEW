@@ -23,7 +23,7 @@ export default function Hero() {
           <div className="inline-flex items-center gap-2 rounded-full border border-[#E07893]/20 bg-[#F4BFC9]/40 px-4 py-2">
             <div className="h-2 w-2 animate-pulse rounded-full bg-[#E07893]" />
             <span className="text-xs font-medium text-[#E07893] sm:text-sm">
-              Presented by Youth Islamic Study Club (YISC) Al-Azhar
+              Presented by Youth Islamic Study Club (YISC) Al Azhar
             </span>
           </div>
 
