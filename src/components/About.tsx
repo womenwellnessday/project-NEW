@@ -63,7 +63,7 @@ export default function About() {
             ))}
             <div className="flex items-center gap-6 pl-2 pt-4">
               <img src="/images/logos/Logo_Al-Azhar_dan_YISC.png" alt="Al-Azhar dan YISC Al-Azhar" className="h-16 w-auto object-contain" />
-              <p className="text-xs text-[#8a8a8a]">Youth Islamic Study Club (YISC) Al-Azhar</p>
+              <p className="text-xs text-[#8a8a8a]">Youth Islamic Study Club (YISC) Al Azhar</p>
             </div>
           </div>
         </div>
@@ -88,7 +88,7 @@ export default function About() {
                   <p className="mb-4 text-sm leading-relaxed text-[#6b6b6b]">{event.description}</p>
                   <div className="flex items-center justify-between border-t border-[#F4BFC9]/40 pt-3 text-xs font-semibold text-[#67855F]">
                     <span>{event.highlight}</span>
-                    <span className="text-[#E07893]">YISC Al-Azhar</span>
+                    <span className="text-[#E07893]">YISC Al Azhar</span>
                   </div>
                 </div>
               </article>
