@@ -5,17 +5,17 @@ const GOOGLE_FORM_URL = 'https://forms.gle/Zb1XbyNEe2xgNnRZ6';
 const events: Event[] = [
   {
     id: 'october', tag: 'Pre-Event 1', date: 'Sabtu, 24 Oktober 2026', title: 'Journaling Picnic', subtitle: 'Journaling & Refleksi Diri',
-    desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', time: '15.00-Selesai WIB', location: 'Taman Bendera Pusaka, Jakarta', capacity: '35 Peserta', accentColor: '#E07893', bgColor: '#FFF5F7', borderColor: '#F4BFC9', open: true,
+    desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', time: '15.00-Selesai WIB', location: 'Taman Bendera Pusaka, Jakarta', capacity: '25 Peserta', accentColor: '#E07893', bgColor: '#FFF5F7', borderColor: '#F4BFC9', open: true,
     image: '/images/Journaling-picnic.png',
   },
   {
     id: 'november', tag: 'Pre-Event 2', date: 'Sabtu, 21 November 2026', title: 'Mat Pilates Class', subtitle: 'Gerakan untuk Tubuh & Ketenangan Pikiran',
-    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', time: 'coming soon', location: 'Studio / Ruang Indoor — Jakarta', capacity: '40 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: false,
+    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', time: 'coming soon', location: 'Studio / Ruang Indoor — Jakarta', capacity: '15 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: false,
     speaker: { role: 'Instruktur', title: 'Coming Soon', credential: 'Cooming Soon' }, image: '/images/Mat-pilates.png',
   },
   {
     id: 'december', tag: 'Main Event', date: 'Desember 2026', title: 'Women Wellness Main Session', subtitle: 'Sesi Mendalam: Reproduksi & Fatherless Healing',
-    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', time: 'Coming Soon', location: 'Venue Utama — Jakarta', capacity: '150 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: false,
+    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', time: 'Coming Soon', location: 'Venue Utama — Jakarta', capacity: '130 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: false,
     speakers: [
       { role: 'Sesi Reproduksi', title: 'Coming Soon', credential: 'Dokter Spesialis Obstetri & Ginekologi' },
       { role: 'Sesi Fatherless Healing', title: 'Coming Soon', credential: 'Coming Soon' },
