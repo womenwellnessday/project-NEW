@@ -10,15 +10,15 @@ const events: Event[] = [
   },
   {
     id: 'november', tag: 'Pre-Event 2', date: 'Sabtu, 21 November 2026', title: 'Mat Pilates Class', subtitle: 'Gerakan untuk Tubuh & Ketenangan Pikiran',
-    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', time: 'coming soon', location: 'Studio / Ruang Indoor — Jakarta', capacity: '15 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: false,
-    speaker: { role: 'Instruktur', title: 'Coming Soon', credential: 'Cooming Soon' }, image: '/images/Mat-pilates.png',
+    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', time: '16.15 - Selesai WIB', location: 'Studio Glimpse, Cipete Selatan — Jakarta', capacity: '15 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: true,
+    image: '/images/Mat-pilates.png',
   },
   {
-    id: 'december', tag: 'Main Event', date: 'Desember 2026', title: 'Women Wellness Main Session', subtitle: 'Sesi Mendalam: Reproduksi & Fatherless Healing',
-    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', time: 'Coming Soon', location: 'Venue Utama — Jakarta', capacity: '130 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: false,
+    id: 'december', tag: 'Main Event', date: 'Desember 2026', title: 'Women Wellness Main Session', subtitle: 'Reclaim Her Glow: A Journey to Wellness',
+    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', time: '09.00 - 15.00 WIB', location: 'Ruang Audhitorium Perpustakaan Nasional RI, Gambir — Jakarta', capacity: '130 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: true,
     speakers: [
-      { role: 'Sesi Reproduksi', title: 'Coming Soon', credential: 'Dokter Spesialis Obstetri & Ginekologi' },
-      { role: 'Sesi Fatherless Healing', title: 'Coming Soon', credential: 'Coming Soon' },
+      { role: 'Silent Killer Wanita', title: 'Mengapa Kanker Serviks Sering Terlambat Diketahui?', credential: 'Prof. Dr. dr. Dwiana Ocviyanti, Sp.OG(K), MPH' },
+      { role: 'Fatherless Healing', title: 'Kenapa Aku Butuh Validasi untuk Merasa Utuh?', credential: 'Zahwa Islami, S.Psi, M.Psi, Psikolog' },
     ], image: '/images/Main-Event.png',
   },
 ];
@@ -83,3 +83,4 @@ export default function Schedule() {
     </section>
   );
 }
+
