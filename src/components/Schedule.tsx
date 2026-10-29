@@ -4,22 +4,59 @@ const GOOGLE_FORM_URL = 'https://forms.gle/Zb1XbyNEe2xgNnRZ6';
 
 const events: Event[] = [
   {
-    id: 'october', tag: 'Pre-Event 1', date: 'Sabtu, 24 Oktober 2026', title: 'Journaling Picnic', subtitle: 'Journaling & Refleksi Diri',
-    desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', time: '15.00-Selesai WIB', location: 'Taman Bendera Pusaka, Jakarta', capacity: '25 Peserta', accentColor: '#E07893', bgColor: '#FFF5F7', borderColor: '#F4BFC9', open: true,
+    id: 'october', 
+    tag: 'Pre-Event 1', 
+    date: 'Sabtu, 24 Oktober 2026', 
+    title: 'Journaling Picnic', 
+    subtitle: 'Journaling & Refleksi Diri',
+    desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', 
+    time: '15.00-Selesai WIB', 
+    location: 'Taman Bendera Pusaka, Jakarta', 
+    capacity: '25 Peserta', 
+    accentColor: '#E07893', 
+    bgColor: '#FFF5F7', 
+    borderColor: '#F4BFC9', 
+    open: true,
+    formUrl: 'https://forms.gle/Zb1XbyNEe2xgNnRZ6', // Link Journaling Picnic
     image: '/images/Journaling-picnic.png',
   },
   {
-    id: 'november', tag: 'Pre-Event 2', date: 'Sabtu, 21 November 2026', title: 'Mat Pilates Class', subtitle: 'Gerakan untuk Tubuh & Ketenangan Pikiran',
-    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', time: '16.15 - Selesai WIB', location: 'Studio Glimpse, Cipete Selatan — Jakarta', capacity: '15 Peserta', accentColor: '#67855F', bgColor: '#F0F5EE', borderColor: '#b5cca8', open: true,
+    id: 'november', 
+    tag: 'Pre-Event 2', 
+    date: 'Sabtu, 21 November 2026', 
+    title: 'Mat Pilates Class', 
+    subtitle: 'Gerakan untuk Tubuh & Ketenangan Pikiran',
+    desc: 'Sesi pilates di atas matras yang dirancang untuk semua tingkat kemampuan. Melalui gerakan yang lembut namun terstruktur, peserta akan merasakan keselarasan antara kekuatan fisik dan ketenangan mental.', 
+    time: '16.15 - Selesai WIB', 
+    location: 'Studio Glimpse, Cipete Selatan — Jakarta', 
+    capacity: '15 Peserta', 
+    accentColor: '#67855F', 
+    bgColor: '#F0F5EE', 
+    borderColor: '#b5cca8', 
+    open: true,
+    formUrl: 'https://forms.gle/LG2hqyvmUeGo7iWx6', // Link Mat Pilates
     image: '/images/Mat-pilates.png',
   },
   {
-    id: 'december', tag: 'Main Event', date: 'Desember 2026', title: 'Women Wellness Main Session', subtitle: 'Reclaim Her Glow: A Journey to Wellness',
-    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', time: '09.00 - 15.00 WIB', location: 'Ruang Audhitorium Perpustakaan Nasional RI, Gambir — Jakarta', capacity: '130 Peserta', accentColor: '#c8825a', bgColor: '#FFF6F0', borderColor: '#e8c4a8', open: true,
+    id: 'december', 
+    tag: 'Main Event', 
+    date: 'Desember 2026', 
+    title: 'Women Wellness Main Session', 
+    subtitle: 'Reclaim Her Glow: A Journey to Wellness',
+    desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', 
+    time: '09.00 - 15.00 WIB', 
+    location: 'Ruang Auditorium Perpustakaan Nasional RI, Gambir — Jakarta', 
+    capacity: '130 Peserta', 
+    accentColor: '#c8825a', 
+    bgColor: '#FFF6F0', 
+    borderColor: '#e8c4a8', 
+    open: true,
+    formUrl: 'https://forms.gle/uVmRRF5cxcSGgG5WA', // Link Main Event WWD
     speakers: [
       { role: 'Silent Killer Wanita', title: 'Mengapa Kanker Serviks Sering Terlambat Diketahui?', credential: 'Prof. Dr. dr. Dwiana Ocviyanti, Sp.OG(K), MPH' },
       { role: 'Fatherless Healing', title: 'Kenapa Aku Butuh Validasi untuk Merasa Utuh?', credential: 'Zahwa Islami, S.Psi, M.Psi, Psikolog' },
-    ], image: '/images/Main-Event.png',
+    ], 
+    image: '/images/Main-Event.png',
   },
 ];
 
@@ -38,6 +75,7 @@ type Event = {
   bgColor: string;
   borderColor: string;
   open: boolean;
+  formUrl: string;
   image: string;
   speaker?: Speaker;
   speakers?: Speaker[];
@@ -73,7 +111,15 @@ export default function Schedule() {
                   <h3 className="mb-1 text-2xl font-bold text-[#2d2d2d]">{event.title}</h3><p className="mb-3 text-sm font-medium" style={{ color: event.accentColor }}>{event.subtitle}</p><p className="mb-5 text-sm leading-relaxed text-[#6b6b6b]">{event.desc}</p>
                   <div className="mb-5 flex flex-wrap gap-4 text-xs text-[#6b6b6b]"><div className="flex items-center gap-1.5"><Clock size={13} style={{ color: event.accentColor }} /><span>{event.time}</span></div><div className="flex items-center gap-1.5"><MapPin size={13} style={{ color: event.accentColor }} /><span>{event.location}</span></div><div className="flex items-center gap-1.5"><Users size={13} style={{ color: event.accentColor }} /><span>{event.capacity}</span></div></div>
                   <div className="mb-6 space-y-2">{event.speaker && <SpeakerCard speaker={event.speaker} accentColor={event.accentColor} />}{event.speakers?.map((speaker) => <SpeakerCard key={speaker.role} speaker={speaker} accentColor={event.accentColor} />)}</div>
-                  {event.open ? <a href={GOOGLE_FORM_URL} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:opacity-90 active:scale-95" style={{ background: event.accentColor }}>Daftar Sekarang <ChevronRight size={16} /></a> : <button type="button" disabled className="inline-flex cursor-not-allowed items-center gap-2 rounded-full bg-[#d5d0cc] px-5 py-2.5 text-sm font-semibold text-white">Pendaftaran Belum Dibuka</button>}
+                  {event.open ? (
+                    <a href={event.formUrl} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 rounded-full px-5 py-2.5 text-sm font-semibold text-white transition-all duration-200 hover:opacity-90 active:scale-95" style={{ background: event.accentColor }}>
+                      Daftar Sekarang <ChevronRight size={16} />
+                    </a>
+                  ) : (
+                    <button type="button" disabled className="inline-flex cursor-not-allowed items-center gap-2 rounded-full bg-[#d5d0cc] px-5 py-2.5 text-sm font-semibold text-white">
+                      Pendaftaran Belum Dibuka
+                    </button>
+                  )}
                 </div>
               </div>
             </div>
@@ -83,4 +129,3 @@ export default function Schedule() {
     </section>
   );
 }
-
