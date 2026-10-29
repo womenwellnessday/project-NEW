@@ -1,6 +1,4 @@
-import { Flower2, ArrowUpRight } from 'lucide-react';
-
-const GOOGLE_FORM_URL = 'https://forms.gle/R85AoCKvhRFKGggv5';
+import { Flower2, ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   const scrollTo = (href: string) => {
@@ -39,21 +37,14 @@ export default function Hero() {
             <em className="font-medium not-italic text-[#E07893]">Ruang Aman untuk Setiap Wanita.</em>
           </p>
 
-          <div className="flex flex-col justify-center gap-4 pt-2 sm:flex-row">
-            <a
-              href={GOOGLE_FORM_URL}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#E07893] px-7 py-4 text-sm font-semibold text-white shadow-lg shadow-[#E07893]/30 transition-all duration-200 hover:bg-[#c96070] active:scale-95 sm:text-base"
-            >
-              Daftar Pre-Event Oktober: Journaling Picnic
-              <ArrowUpRight size={17} className="transition-transform group-hover:translate-x-1 group-hover:-translate-y-1" />
-            </a>
+          {/* Tombol Utama Dipusatkan ke Tengah Menuju Schedule */}
+          <div className="flex justify-center pt-2">
             <button
               onClick={() => scrollTo('#schedule')}
-              className="inline-flex items-center justify-center rounded-full border-2 border-[#67855F] px-7 py-4 text-sm font-semibold text-[#67855F] transition-all duration-200 hover:bg-[#67855F] hover:text-white sm:text-base"
+              className="group inline-flex items-center justify-center gap-2 rounded-full bg-[#E07893] px-8 py-4 text-sm font-semibold text-white shadow-lg shadow-[#E07893]/30 transition-all duration-200 hover:bg-[#c96070] active:scale-95 sm:text-base"
             >
               Lihat Seluruh Rangkaian Acara
+              <ArrowRight size={18} className="transition-transform group-hover:translate-x-1" />
             </button>
           </div>
 
