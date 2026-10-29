@@ -9,8 +9,6 @@ const NAV_LINKS = [
   { label: 'Contact', href: '#contact' },
 ];
 
-const GOOGLE_FORM_URL = 'https://forms.gle/R85AoCKvhRFKGggv5';
-
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -58,14 +56,12 @@ export default function Navbar() {
             ))}
           </div>
 
-          <a
-            href={GOOGLE_FORM_URL}
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => scrollTo('#schedule')}
             className="hidden shrink-0 items-center rounded-full bg-[#E07893] px-5 py-2.5 text-sm font-semibold text-white shadow-md shadow-[#E07893]/30 transition-all hover:bg-[#c96070] active:scale-95 sm:inline-flex"
           >
             Daftar Acara
-          </a>
+          </button>
         </div>
       </div>
     </nav>
