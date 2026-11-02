@@ -38,7 +38,7 @@ export default function About() {
             </h2>
             <div className="space-y-4 text-base leading-relaxed text-[#6b6b6b] sm:text-lg">
               <p>
-                <strong className="text-[#2d2d2d]">Women Wellness Day</strong> adalah sebuah inisiatif perdana dari <strong className="text-[#67855F]">Youth Islamic Study Club (YISC) Al Azhar</strong> di bawah naungan Yayasan Pesantren Islam Al Azhar — sebuah wadah yang dirancang khusus untuk wanita Muslimah dan generasi muda.
+                <strong className="text-[#2d2d2d]">Women Wellness Day</strong> adalah sebuah inisiatif perdana dari <strong className="text-[#67855F]">Youth Islamic Study Club (YISC) Al Azhar</strong> di bawah naungan Yayasan Pesantren Islam Al Azhar — sebuah wadah yang dirancang khusus untuk wanita usia 17 - 40 tahun.
               </p>
               <p>Dalam tiga seri event yang terintegrasi, kami menghadirkan ruang yang aman dan nyaman untuk refleksi diri, menjaga kesehatan reproduksi, serta proses <em>healing</em> yang bermakna — dibalut dalam nuansa yang estetik, hangat, dan penuh kebersamaan.</p>
               <p>Karena setiap wanita berhak untuk didengar, dipulihkan, dan mekar dalam caranya sendiri.</p>
