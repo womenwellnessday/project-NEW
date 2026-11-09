@@ -1,12 +1,18 @@
 const photos = [
-  { image: '/images/Blooming_picnic1.jpg', alt: 'Blooming picnic' },
-  { image: '/images/Blooming_picnic2.jpg', alt: 'Blooming picnic' },
-  { image: '/images/Blooming_picnic3.jpg', alt: 'Blooming picnic' },
-  { image: '/images/Blooming.jpg', alt: 'Blooming picnic' },
-  { image: '/images/Blooming_picnic5.jpg', alt: 'Blooming picnic' },
-  { image: '/images/Blooming_picnic6.jpg', alt: 'Blooming picnic' },
+  { image: '/images/Blooming_picnic1.jpg', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic2.jpg', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic3.jpg', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming.jpg', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic5.jpg', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic6.jpg', alt: 'Blooming Picnic' },
   { image: '/images/Trekking.jpg', alt: 'Trekking to Bukit Paniisan' },
   { image: '/images/Trekking2.jpg', alt: 'Trekking to Bukit Paniisan' },
+  { image: '/images/past-events/jp9.jpg', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp4.jpg', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp5.jpg', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp6.jpg', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp10.jpg', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp11.jpg', alt: 'Journaling Picnic' }
 ];
 
 export default function Gallery() {
