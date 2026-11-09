@@ -12,6 +12,7 @@ const photos = [
   { image: '/images/past-events/jp5.jpg', alt: 'Journaling Picnic' },
   { image: '/images/past-events/jp6.jpg', alt: 'Journaling Picnic' },
   { image: '/images/past-events/jp10.jpg', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp3.jpg', alt: 'Journaling Picnic' },
   { image: '/images/past-events/jp11.jpg', alt: 'Journaling Picnic' }
 ];
 
