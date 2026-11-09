@@ -12,13 +12,13 @@ const events: Event[] = [
     desc: 'Konsep santai di area terbuka yang mengajak peserta menemukan kedamaian melalui tulisan. Ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri — dibungkus dalam suasana piknik yang estetik dan menenangkan.', 
     time: '15.00-Selesai WIB', 
     location: 'Taman Bendera Pusaka, Jakarta', 
-    capacity: '25 Peserta', 
+    capacity: '35 Peserta', 
     accentColor: '#E07893', 
     bgColor: '#FFF5F7', 
     borderColor: '#F4BFC9', 
     open: true,
     formUrl: 'https://forms.gle/Zb1XbyNEe2xgNnRZ6', // Link Journaling Picnic
-    image: '/images/Journaling-picnic.png',
+    image: '/images/past-events/jp9.jpg',
   },
   {
     id: 'november', 
@@ -35,12 +35,12 @@ const events: Event[] = [
     borderColor: '#b5cca8', 
     open: true,
     formUrl: 'https://forms.gle/LG2hqyvmUeGo7iWx6', // Link Mat Pilates
-    image: '/images/Mat-pilates.png',
+    image: '/images/matpilates.jpg',
   },
   {
     id: 'december', 
     tag: 'Main Event', 
-    date: 'Desember 2026', 
+    date: 'Sabtu, 5 Desember 2026', 
     title: 'Women Wellness Main Session', 
     subtitle: 'Reclaim Her Glow: A Journey to Wellness',
     desc: 'Puncak rangkaian Women Wellness Day dengan dua sesi utama: edukasi kesehatan organ reproduksi wanita bersama dokter spesialis Obgyn, dan sesi Fatherless Healing bersama psikolog klinis berpengalaman.', 
@@ -56,7 +56,7 @@ const events: Event[] = [
       { role: 'Silent Killer Wanita', title: 'Mengapa Kanker Serviks Sering Terlambat Diketahui?', credential: 'Prof. Dr. dr. Dwiana Ocviyanti, Sp.OG(K), MPH' },
       { role: 'Fatherless Healing', title: 'Kenapa Aku Butuh Validasi untuk Merasa Utuh?', credential: 'Zahwa Islami, S.Psi, M.Psi, Psikolog' },
     ], 
-    image: '/images/Main-Event.png',
+    image: '/images/WWD.png',
   },
 ];
 

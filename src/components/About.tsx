@@ -21,6 +21,13 @@ const pastEvents = [
     year: '2026',
     image: '/images/Trekking.jpg',
   },
+  {
+    title: 'Journaling Picnic',
+    description: 'Piknik Hangat untuk menemukan kedamaian, ekspresi emosi, refleksi diri, dan koneksi mendalam dengan diri sendiri',
+    highlight: '35 perserta',
+    year: '2026',
+    image: '/images/past-events/jp9.jpg',
+  },
 ];
 
 export default function About() {

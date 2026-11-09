@@ -6,7 +6,7 @@ const faqs = [
   { q: 'Barang apa yang perlu dibawa saat Journaling Picnic?', a: 'Buku jurnal atau notebook dan alat tulis favorit kamu, alas piknik bila diperlukan, snack ringan, kamera atau HP, dan yang paling penting — hati yang terbuka dan siap untuk hadir penuh.' },
   { q: 'Apakah Mat Pilates cocok untuk pemula?', a: 'Sangat cocok! Sesi Mat Pilates dirancang inklusif untuk semua tingkat kemampuan. Instruktur akan memandu dengan sabar dan memastikan semua peserta merasa nyaman.' },
   { q: 'Di mana saya bisa melakukan registrasi ulang saat hari H?', a: 'Meja registrasi ulang akan tersedia di pintu masuk venue paling lambat 30 menit sebelum acara dimulai. Pastikan kamu membawa bukti pendaftaran dari panitia.' },
-  { q: 'Apakah ada biaya pendaftaran?', a: 'Informasi biaya pendaftaran akan diumumkan melalui media sosial resmi YISC Al-Azhar. Pastikan kamu mengikuti akun kami untuk update terbaru.' },
+  { q: 'Apakah ada biaya pendaftaran?', a: 'Informasi biaya pendaftaran akan diumumkan melalui instagram @womenwellnessday. Pastikan kamu mengikuti akun kami untuk update terbaru.' },
   { q: 'Bisakah saya mendaftar untuk semua event sekaligus?', a: 'Pendaftaran dilakukan secara bertahap dan terpisah untuk setiap event sesuai dengan jadwal pembukaan masing-masing rangkaian acara.' },
   { q: 'Bagaimana cara menghubungi panitia?', a: "Silakan buka menu 'Contact' pada navigasi di bagian atas halaman untuk terhubung langsung dengan tim panitia via WhatsApp." },
 ];
