@@ -18,7 +18,7 @@ const events: Event[] = [
     borderColor: '#F4BFC9', 
     open: true,
     formUrl: 'https://forms.gle/Zb1XbyNEe2xgNnRZ6', // Link Journaling Picnic
-    image: '/images/jpposter.jpg',
+    image: '/images/jpposter.webp',
   },
   {
     id: 'november', 
@@ -35,7 +35,7 @@ const events: Event[] = [
     borderColor: '#b5cca8', 
     open: true,
     formUrl: 'https://forms.gle/LG2hqyvmUeGo7iWx6', // Link Mat Pilates
-    image: '/images/matpilates.jpg',
+    image: '/images/matpilates.webp',
   },
   {
     id: 'december', 
@@ -56,7 +56,7 @@ const events: Event[] = [
       { role: 'Silent Killer Wanita', title: 'Mengapa Kanker Serviks Sering Terlambat Diketahui?', credential: 'Prof. Dr. dr. Dwiana Ocviyanti, Sp.OG(K), MPH' },
       { role: 'Fatherless Healing', title: 'Kenapa Aku Butuh Validasi untuk Merasa Utuh?', credential: 'Zahwa Islami, S.Psi, M.Psi, Psikolog' },
     ], 
-    image: '/images/WWD.png',
+    image: '/images/WWD.webp',
   },
 ];
 

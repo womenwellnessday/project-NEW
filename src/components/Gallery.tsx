@@ -1,19 +1,19 @@
 const photos = [
-  { image: '/images/Blooming_picnic1.jpg', alt: 'Blooming Picnic' },
-  { image: '/images/Blooming_picnic2.jpg', alt: 'Blooming Picnic' },
-  { image: '/images/Blooming_picnic3.jpg', alt: 'Blooming Picnic' },
-  { image: '/images/Blooming.jpg', alt: 'Blooming Picnic' },
-  { image: '/images/Blooming_picnic5.jpg', alt: 'Blooming Picnic' },
-  { image: '/images/Blooming_picnic6.jpg', alt: 'Blooming Picnic' },
-  { image: '/images/Trekking.jpg', alt: 'Trekking to Bukit Paniisan' },
-  { image: '/images/Trekking2.jpg', alt: 'Trekking to Bukit Paniisan' },
-  { image: '/images/past-events/jp9.jpg', alt: 'Journaling Picnic' },
-  { image: '/images/past-events/jp4.jpg', alt: 'Journaling Picnic' },
-  { image: '/images/past-events/jp5.jpg', alt: 'Journaling Picnic' },
-  { image: '/images/past-events/jp6.jpg', alt: 'Journaling Picnic' },
-  { image: '/images/past-events/jp10.jpg', alt: 'Journaling Picnic' },
-  { image: '/images/past-events/jp3.jpg', alt: 'Journaling Picnic' },
-  { image: '/images/past-events/jp11.jpg', alt: 'Journaling Picnic' }
+  { image: '/images/Blooming_picnic1.webp', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic2.webp', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic3.webp', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming.webp', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic5.webp', alt: 'Blooming Picnic' },
+  { image: '/images/Blooming_picnic6.webp', alt: 'Blooming Picnic' },
+  { image: '/images/Trekking.webp', alt: 'Trekking to Bukit Paniisan' },
+  { image: '/images/Trekking2.webp', alt: 'Trekking to Bukit Paniisan' },
+  { image: '/images/past-events/jp9.webp', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp4.webp', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp5.webp', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp6.webp', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp10.webp', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp3.webp', alt: 'Journaling Picnic' },
+  { image: '/images/past-events/jp11.webp', alt: 'Journaling Picnic' }
 ];
 
 export default function Gallery() {
