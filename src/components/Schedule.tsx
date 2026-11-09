@@ -18,7 +18,7 @@ const events: Event[] = [
     borderColor: '#F4BFC9', 
     open: true,
     formUrl: 'https://forms.gle/Zb1XbyNEe2xgNnRZ6', // Link Journaling Picnic
-    image: '/images/past-events/jp9.jpg',
+    image: '/images/jpposter.jpg',
   },
   {
     id: 'november', 
@@ -103,7 +103,7 @@ export default function Schedule() {
         <div className="space-y-10">
           {events.map((event, index) => (
             <div key={event.id} className={`flex flex-col items-stretch gap-8 lg:flex-row ${index % 2 === 1 ? 'lg:flex-row-reverse' : ''}`}>
-              <div className="lg:w-1/2"><div className="h-56 overflow-hidden rounded-3xl shadow-lg sm:h-72"><img src={event.image} alt={event.title} className="h-full w-full object-cover" /></div></div>
+              <div className="lg:w-1/2"><div className="aspect-[3/2] overflow-hidden rounded-3xl shadow-lg"><img src={event.image} alt={event.title} className="h-full w-full object-cover" /></div></div>
               <div className="lg:w-1/2">
                 <div className="relative h-full rounded-3xl border p-7 shadow-sm transition-shadow hover:shadow-md sm:p-8" style={{ background: event.bgColor, borderColor: event.borderColor }}>
                   <Flower2 className="absolute right-5 top-5 h-16 w-16 opacity-[0.09]" style={{ color: event.accentColor }} strokeWidth={1} />
