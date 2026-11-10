@@ -56,7 +56,7 @@ const events: Event[] = [
       { role: 'Silent Killer Wanita', title: 'Mengapa Kanker Serviks Sering Terlambat Diketahui?', credential: 'Prof. Dr. dr. Dwiana Ocviyanti, Sp.OG(K), MPH' },
       { role: 'Fatherless Healing', title: 'Kenapa Aku Butuh Validasi untuk Merasa Utuh?', credential: 'Zahwa Islami, S.Psi, M.Psi, Psikolog' },
     ], 
-    image: '/images/WWD.webp',
+    image: '/images/WWD2.webp',
   },
 ];
 
